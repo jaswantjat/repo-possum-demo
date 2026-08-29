@@ -2,218 +2,218 @@
  "sprite": {
   "bgm_freespin": [
    0.0,
-   30476.190476190473,
+   38400.0,
    true
   ],
   "bgm_main": [
-   32000,
-   41739.115646258506,
+   40000,
+   45714.28571428572,
    true
   ],
   "bgm_winlevel_big": [
-   75000,
+   87000,
    8000.0,
    true
   ],
   "bgm_winlevel_epic": [
-   84000,
+   96000,
    8000.0,
    true
   ],
   "bgm_winlevel_max": [
-   93000,
+   105000,
    8000.0,
    true
   ],
   "bgm_winlevel_mega": [
-   102000,
+   114000,
    8000.0,
    true
   ],
   "bgm_winlevel_superwin": [
-   111000,
+   123000,
    8000.0,
    true
   ],
   "jng_intro_fs": [
-   120000,
+   132000,
    2200.0
   ],
   "sfx_anticipation": [
-   124000,
+   136000,
    7500.0
   ],
   "sfx_anticipation_start": [
-   133000,
+   145000,
    950.0
   ],
   "sfx_bigwin_coinloop": [
-   135000,
+   147000,
    16000.0,
    true
   ],
   "sfx_btn_general": [
-   152000,
+   164000,
    180.0
   ],
   "sfx_btn_spin": [
-   153000,
+   165000,
    500.0
   ],
   "sfx_fs_respins": [
-   155000,
+   167000,
    4000.0
   ],
   "sfx_multiplier_combine_a": [
-   160000,
+   172000,
    1000.0
   ],
   "sfx_multiplier_combine_b": [
-   162000,
+   174000,
    1000.0
   ],
   "sfx_multiplier_explosion_a": [
-   164000,
+   176000,
    750.0
   ],
   "sfx_multiplier_explosion_b": [
-   166000,
+   178000,
    2000.0
   ],
   "sfx_multiplier_explosion_c": [
-   169000,
+   181000,
    1149.9773242630386
   ],
   "sfx_multiplier_landing": [
-   171000,
+   183000,
    900.0
   ],
   "sfx_multiplier_reset": [
-   173000,
+   185000,
    550.0
   ],
   "sfx_multiplier_up": [
-   175000,
+   187000,
    1399.9773242630386
   ],
   "sfx_multiplier_update": [
-   178000,
+   190000,
    800.0
   ],
   "sfx_multiplier_win": [
-   180000,
+   192000,
    3700.0
   ],
   "sfx_reel_stop_1": [
-   185000,
+   197000,
    220.0
   ],
   "sfx_reel_stop_2": [
-   187000,
+   199000,
    220.0
   ],
   "sfx_reel_stop_3": [
-   189000,
+   201000,
    220.0
   ],
   "sfx_reel_stop_4": [
-   191000,
+   203000,
    220.0
   ],
   "sfx_reel_stop_5": [
-   193000,
+   205000,
    220.0
   ],
   "sfx_royals_landing": [
-   195000,
+   207000,
    300.0
   ],
   "sfx_scatter_reveal": [
-   197000,
+   209000,
    1399.9773242630386
   ],
   "sfx_scatter_stop_1": [
-   200000,
+   212000,
    900.0
   ],
   "sfx_scatter_stop_2": [
-   202000,
+   214000,
    900.0
   ],
   "sfx_scatter_stop_3": [
-   204000,
+   216000,
    900.0
   ],
   "sfx_scatter_stop_4": [
-   206000,
+   218000,
    900.0
   ],
   "sfx_scatter_stop_5": [
-   208000,
+   220000,
    900.0
   ],
   "sfx_scatter_win": [
-   210000,
+   222000,
    1900.0
   ],
   "sfx_scatter_win_v2": [
-   213000,
+   225000,
    3600.0
   ],
   "sfx_superfreespin": [
-   218000,
+   230000,
    6000.0
   ],
   "sfx_symbols_landing": [
-   225000,
+   237000,
    349.97732426303855
   ],
   "sfx_wild_explode": [
-   227000,
+   239000,
    1300.0
   ],
   "sfx_winlevel_end": [
-   230000,
+   242000,
    2400.0
   ],
   "sfx_winlevel_nice": [
-   234000,
+   246000,
    1850.0
   ],
   "sfx_winlevel_small": [
-   237000,
+   249000,
    1149.9773242630386
   ],
   "sfx_winlevel_standard": [
-   239000,
+   251000,
    1499.9773242630386
   ],
   "sfx_winlevel_substantial": [
-   242000,
+   254000,
    2200.0
   ],
   "sfx_youwon_panel": [
-   246000,
+   258000,
    3000.0
   ],
   "tumble_win_1": [
-   250000,
+   262000,
    1250.0
   ],
   "tumble_win_2": [
-   253000,
+   265000,
    1250.0
   ],
   "tumble_win_3": [
-   256000,
+   268000,
    1250.0
   ],
   "tumble_win_4": [
-   259000,
+   271000,
    1250.0
   ],
   "tumble_win_5": [
-   262000,
+   274000,
    1250.0
   ]
  },
