@@ -37,183 +37,183 @@
   ],
   "jng_intro_fs": [
    120000,
-   2000.0
+   2200.0
   ],
   "sfx_anticipation": [
-   123000,
+   124000,
    7500.0
   ],
   "sfx_anticipation_start": [
-   132000,
+   133000,
    950.0
   ],
   "sfx_bigwin_coinloop": [
-   134000,
+   135000,
    16000.0,
    true
   ],
   "sfx_btn_general": [
-   151000,
+   152000,
    180.0
   ],
   "sfx_btn_spin": [
-   152000,
+   153000,
    500.0
   ],
   "sfx_fs_respins": [
-   154000,
+   155000,
    4000.0
   ],
   "sfx_multiplier_combine_a": [
-   159000,
+   160000,
    1000.0
   ],
   "sfx_multiplier_combine_b": [
-   161000,
+   162000,
    1000.0
   ],
   "sfx_multiplier_explosion_a": [
-   163000,
+   164000,
    750.0
   ],
   "sfx_multiplier_explosion_b": [
-   165000,
+   166000,
    2000.0
   ],
   "sfx_multiplier_explosion_c": [
-   168000,
+   169000,
    1149.9773242630386
   ],
   "sfx_multiplier_landing": [
-   170000,
+   171000,
    900.0
   ],
   "sfx_multiplier_reset": [
-   172000,
+   173000,
    550.0
   ],
   "sfx_multiplier_up": [
-   174000,
+   175000,
    1399.9773242630386
   ],
   "sfx_multiplier_update": [
-   177000,
+   178000,
    800.0
   ],
   "sfx_multiplier_win": [
-   179000,
+   180000,
    3700.0
   ],
   "sfx_reel_stop_1": [
-   184000,
+   185000,
    220.0
   ],
   "sfx_reel_stop_2": [
-   186000,
+   187000,
    220.0
   ],
   "sfx_reel_stop_3": [
-   188000,
+   189000,
    220.0
   ],
   "sfx_reel_stop_4": [
-   190000,
+   191000,
    220.0
   ],
   "sfx_reel_stop_5": [
-   192000,
+   193000,
    220.0
   ],
   "sfx_royals_landing": [
-   194000,
+   195000,
    300.0
   ],
   "sfx_scatter_reveal": [
-   196000,
+   197000,
    1399.9773242630386
   ],
   "sfx_scatter_stop_1": [
-   199000,
+   200000,
    900.0
   ],
   "sfx_scatter_stop_2": [
-   201000,
+   202000,
    900.0
   ],
   "sfx_scatter_stop_3": [
-   203000,
+   204000,
    900.0
   ],
   "sfx_scatter_stop_4": [
-   205000,
+   206000,
    900.0
   ],
   "sfx_scatter_stop_5": [
-   207000,
+   208000,
    900.0
   ],
   "sfx_scatter_win": [
-   209000,
+   210000,
    1900.0
   ],
   "sfx_scatter_win_v2": [
-   212000,
+   213000,
    3600.0
   ],
   "sfx_superfreespin": [
-   217000,
+   218000,
    6000.0
   ],
   "sfx_symbols_landing": [
-   224000,
+   225000,
    349.97732426303855
   ],
   "sfx_wild_explode": [
-   226000,
+   227000,
    1300.0
   ],
   "sfx_winlevel_end": [
-   229000,
-   1499.9773242630386
+   230000,
+   2400.0
   ],
   "sfx_winlevel_nice": [
-   232000,
+   234000,
    1850.0
   ],
   "sfx_winlevel_small": [
-   235000,
+   237000,
    1149.9773242630386
   ],
   "sfx_winlevel_standard": [
-   237000,
+   239000,
    1499.9773242630386
   ],
   "sfx_winlevel_substantial": [
-   240000,
+   242000,
    2200.0
   ],
   "sfx_youwon_panel": [
-   244000,
+   246000,
    3000.0
   ],
   "tumble_win_1": [
-   248000,
+   250000,
    1250.0
   ],
   "tumble_win_2": [
-   251000,
+   253000,
    1250.0
   ],
   "tumble_win_3": [
-   254000,
+   256000,
    1250.0
   ],
   "tumble_win_4": [
-   257000,
+   259000,
    1250.0
   ],
   "tumble_win_5": [
-   260000,
+   262000,
    1250.0
   ]
  },
