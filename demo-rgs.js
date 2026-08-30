@@ -19,7 +19,6 @@
     bonus: { mode: 'bonus', costMultiplier: 100, feature: true },
     super: { mode: 'super', costMultiplier: 250, feature: true },
     epic: { mode: 'epic', costMultiplier: 500, feature: true },
-    maxzero: { mode: 'maxzero', costMultiplier: 1000, feature: true },
   };
   var JUR = { socialCasino: true, disabledFullscreen: false, disabledTurbo: false, disabledSuperTurbo: false, disabledAutoplay: false, disabledSlamstop: false, disabledSpacebar: false, disabledBuyFeature: false, displayNetPosition: false, displayRTP: true, displaySessionTimer: false, minimumRoundDuration: 0 };
 
