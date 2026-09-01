@@ -19,6 +19,7 @@
     bonus: { mode: 'bonus', costMultiplier: 100, feature: true },
     super: { mode: 'super', costMultiplier: 250, feature: true },
     epic: { mode: 'epic', costMultiplier: 500, feature: true },
+    maxzero: { mode: 'maxzero', costMultiplier: 1000, feature: true },
   };
   var JUR = { socialCasino: true, disabledFullscreen: false, disabledTurbo: false, disabledSuperTurbo: false, disabledAutoplay: false, disabledSlamstop: false, disabledSpacebar: false, disabledBuyFeature: false, displayNetPosition: false, displayRTP: true, displaySessionTimer: false, minimumRoundDuration: 0 };
 
@@ -53,9 +54,16 @@
   function balance() { return { amount: state.balance, currency: 'USD' }; }
 
   var origFetch = window.fetch.bind(window);
+  function isRgsUrl(url) {
+    if (url.indexOf(RGS_HOST) !== -1) return true;
+    try {
+      var h = new URL(url, window.location.href).host;
+      return h === 'demo' || h === 'demo:443' || h === 'demo-rgs.local';
+    } catch (e) { return false; }
+  }
   window.fetch = function (input, init) {
     var url = typeof input === 'string' ? input : (input && input.url) || '';
-    if (url.indexOf(RGS_HOST) === -1) return origFetch(input, init);
+    if (!isRgsUrl(url)) return origFetch(input, init);
     var body = {};
     try { body = JSON.parse((init && init.body) || (typeof input !== 'string' && input.bodyUsed === false ? null : null) || '{}'); } catch (e) { body = {}; }
     if (url.indexOf('/wallet/authenticate') !== -1) {
