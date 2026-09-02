@@ -81,7 +81,8 @@
       var mode = body.mode || 'base';
       return drawBook(mode).then(function (book) {
         var payout = Math.round((book.payoutMultiplier / 100) * amount);
-        state.balance -= amount;
+        // real RGS charges base bet x mode cost (e.g. RANDOM BONUS = 125 x bet)
+        state.balance -= Math.round(amount * ((MODES[mode] || { costMultiplier: 1 }).costMultiplier));
         state.pendingPayout = payout;
         return json({
           status: { statusCode: 'SUCCESS' }, balance: balance(),
